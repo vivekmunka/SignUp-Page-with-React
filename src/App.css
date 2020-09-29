@@ -1,29 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
 .google-btn {
-  width: 184px;
+  width: 40%;
   margin-bottom: 2%;
   height: 42px;
+  float: left;
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
 }
-.fb-btn{
-  width: 184px;
-  height: 42px;
-  float: right;
-  background-color: #fff;
-  border-radius: 2px;
-  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
-}
-.fb-btn .google-icon-wrapper {
-  position: absolute;
-  margin-top: 1px;
-  margin-left: 1px;
-  width: 40px;
-  height: 40px;
-  border-radius: 2px;
-  background-color: #fff;
-}
+
+
 .google-btn .google-icon-wrapper {
   position: absolute;
   margin-top: 1px;
@@ -48,7 +34,13 @@
   letter-spacing: 0.2px;
   font-family: "Roboto";
 }
-
+img{
+  width: 300px;
+  height: 250px;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
 
 h3{
   font-size: .9rem;
@@ -58,8 +50,8 @@ h3{
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 form{
-  margin-top: 5%;
-  width:35%;
+
+  width:30%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -105,65 +97,15 @@ button:hover {
   opacity:1;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
 /* Add padding to container elements */
 .container {
   padding: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: #474e5d;
-  padding-top: 50px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
 }
 
 /* Style the horizontal ruler */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 35px;
-  top: 15px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #f1f1f1;
-}
-
-.close:hover,
-.close:focus {
-  color: #f44336;
-  cursor: pointer;
 }
 
 /* Clear floats */
@@ -177,5 +119,8 @@ hr {
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
      width: 100%;
+  }
+  form{
+    width: 50%;
   }
 }
