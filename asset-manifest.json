@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SignUp-Page-with-React/static/css/main.9ae3e7f8.chunk.css",
+    "main.js": "/SignUp-Page-with-React/static/js/main.37fc3f40.chunk.js",
+    "main.js.map": "/SignUp-Page-with-React/static/js/main.37fc3f40.chunk.js.map",
+    "runtime-main.js": "/SignUp-Page-with-React/static/js/runtime-main.c1016fba.js",
+    "runtime-main.js.map": "/SignUp-Page-with-React/static/js/runtime-main.c1016fba.js.map",
+    "static/js/2.7df0e9e4.chunk.js": "/SignUp-Page-with-React/static/js/2.7df0e9e4.chunk.js",
+    "static/js/2.7df0e9e4.chunk.js.map": "/SignUp-Page-with-React/static/js/2.7df0e9e4.chunk.js.map",
+    "index.html": "/SignUp-Page-with-React/index.html",
+    "precache-manifest.5a775c1c975b4234af05c305ccaa4869.js": "/SignUp-Page-with-React/precache-manifest.5a775c1c975b4234af05c305ccaa4869.js",
+    "service-worker.js": "/SignUp-Page-with-React/service-worker.js",
+    "static/css/main.9ae3e7f8.chunk.css.map": "/SignUp-Page-with-React/static/css/main.9ae3e7f8.chunk.css.map",
+    "static/js/2.7df0e9e4.chunk.js.LICENSE.txt": "/SignUp-Page-with-React/static/js/2.7df0e9e4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/SignUp-Page-with-React/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1016fba.js",
+    "static/js/2.7df0e9e4.chunk.js",
+    "static/css/main.9ae3e7f8.chunk.css",
+    "static/js/main.37fc3f40.chunk.js"
+  ]
+}
